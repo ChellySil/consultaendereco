@@ -1,4 +1,53 @@
-html, body {
-  height: 100%;
+body {
+  background:#ffff00;
+}
+.centralizado{
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0,0,0,0.8);
+  padding: 50px;
+  border-radius: 10px;
+}
+#resultado{
+  font-size: 25px;
+  color: white;
+  text-align: center;
+}
+#bloco {
+  font-size: 25px;
+  color: white;
+  text-align: center;
+}
+label {
+  text-align: center;
+  padding: 10px;
+  margin: 15px;
+  font-size: 25px;
+  color: white;
+  
+}
+input {
+  padding: 15px;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+h1{
+  text-align: center;
+  padding: 15px;
+  color: white;
+}
+button {
+  background-color: yellow;
+  margin: 20px;
+  border: none;
+  padding: 15px;
   width: 100%;
+  border-radius: 10px;
+  font-size: 25px;
+  color: black;
+  
 }
